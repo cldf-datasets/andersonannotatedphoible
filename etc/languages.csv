@@ -2279,7 +2279,7 @@ ID,Name,Glottocode,Macroarea,Latitude,Longitude,Family_Glottocode,Family_Name
 2278_Mirandese_mira1251,Mirandese,mira1251,Eurasia,41.5375,-6.38371,indo1319,Indo-European
 2279_KazymBerezoverSuryskarer_Khanty_khan1273,Kazym-Berezover-Suryskarer Khanty,khan1273,Eurasia,62.4308,66.1218,ural1272,Uralic
 2280_Tshangla_tsha1245,Tshangla,tsha1245,Eurasia,27.3694,91.7741,sino1245,Sino-Tibetan
-2281__,,,,,,,
+2281_Modern_Aramaic_west2753,Modern Aramaic,west2763,Eurasia,,,afro1255,Afro-Asiatic
 2282_Lithuanian_lith1251,Lithuanian,lith1251,Eurasia,55.1429,23.9601,indo1319,Indo-European
 2283_Ossetian_osse1243,Modern Ossetic,osse1243,Eurasia,42.98,44.61,indo1319,Indo-European
 2284_JudeoTat_jude1256,Judeo-Tat,jude1256,Eurasia,42.068306,48.264749,indo1319,Indo-European
@@ -2727,7 +2727,7 @@ ID,Name,Glottocode,Macroarea,Latitude,Longitude,Family_Glottocode,Family_Name
 2726_Yuwaalayaay_yuwa1243,Yuwaalayaay,yuwa1243,Australia,,,pama1250,Pama-Nyungan
 2727_Dhudhuroa_dhud1236,Dhudhuroa,dhud1236,Australia,-36.95881441,147.0450379,pama1250,Pama-Nyungan
 2728_Jandai_jand1248,Jandai,jand1248,Australia,,,pama1250,Pama-Nyungan
-2729__,,,,,,,
+2729_Djindewal_yaga1262,Djindewal,yaga1262,Australia,,,pama1250,Pama-Nyungan
 2730_Yagara_yaga1262,Yagara,yaga1262,Australia,,,pama1250,Pama-Nyungan
 2731_Yagara_yaga1262,Yagara,yaga1262,Australia,,,pama1250,Pama-Nyungan
 2732_Dyirbal_dyir1250,Dyirbal,dyir1250,Australia,-17.4516,145.544,pama1250,Pama-Nyungan
