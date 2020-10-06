@@ -15,7 +15,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tresoldi/myphoible",
-            "dc:created": "514d37d"
+            "dc:created": "c9d9e94"
         },
         {
             "rdf:type": "prov:Entity",
@@ -100,8 +100,8 @@
                         "name": "Marginal"
                     },
                     {
-                        "separator": " ",
-                        "name": "Allophones"
+                        "datatype": "string",
+                        "name": "Catalog"
                     },
                     {
                         "datatype": "string",

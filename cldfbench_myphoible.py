@@ -300,7 +300,7 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_columns(
             "ValueTable",
             {"name": "Marginal", "datatype": "boolean"},
-            {"name": "Allophones", "separator": " "},
+            "Catalog",
             "Contribution_ID",
         )
 
@@ -410,6 +410,7 @@ class Dataset(BaseDataset):
                     "Value": entry["segment_raw"],
                     "Contribution_ID": entry["inv_id"],
                     "Source": [entry["source"]],
+                    "Catalog" : slug(entry["source"]),
                 }
             )
             counter += 1
