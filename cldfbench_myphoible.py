@@ -282,7 +282,7 @@ class Dataset(BaseDataset):
     """
 
     dir = Path(__file__).parent
-    id = "eurasianinventories"
+    id = "myphoible"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return CLDFSpec(dir=self.cldf_dir, module="StructureDataset")

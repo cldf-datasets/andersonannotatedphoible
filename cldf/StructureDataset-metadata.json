@@ -15,7 +15,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tresoldi/myphoible",
-            "dc:created": "6673611"
+            "dc:created": "80015cf"
         },
         {
             "rdf:type": "prov:Entity",
@@ -34,7 +34,7 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "eurasianinventories",
+    "rdf:ID": "myphoible",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
