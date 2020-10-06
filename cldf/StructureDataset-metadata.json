@@ -15,7 +15,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tresoldi/myphoible",
-            "dc:created": "b2729ee"
+            "dc:created": "514d37d"
         },
         {
             "rdf:type": "prov:Entity",
@@ -140,7 +140,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3453,
+            "dc:extent": 3184,
             "tableSchema": {
                 "columns": [
                     {

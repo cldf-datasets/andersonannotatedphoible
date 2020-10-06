@@ -5,7 +5,7 @@ This complex method is only needed while we cannot get raw strings (pre-processi
 pre-normalization) from Phoible.
 """
 
-# TODO: do allophones, especially for UPSID
+# TODO: do allophones, which are currently just stripped off
 
 import csv
 import unicodedata
@@ -79,25 +79,15 @@ def read_phoible_common(filename, source):
             if row["LanguageName"]:
                 curr_lang_name = row["LanguageName"]
 
-            # Build a new entry: raw segment and marginal
-            # TODO: check sources for empty segments
+            # Build a new entry
             segment_raw = row[segment_field]
             if segment_raw:
-                if segment_raw[0] == "<" and segment_raw[-1] == ">":
-                    marginal = True
-                elif segment_raw[0] == "'" and segment_raw[-1] == "'":
-                    marginal = True
-                else:
-                    marginal = False
-
                 entries.append(
                     {
                         "lang_id": f"{source}_{curr_lang_name}",
-                        # "glottocode": phoible_lang.get(curr_inventory_id, ""),
                         "source": f"PHOIBLE_{source}",
                         "inv_id": curr_inventory_id,
                         "segment_raw": segment_raw,
-                        "marginal": str(marginal),
                     }
                 )
 
@@ -140,7 +130,6 @@ def read_phoible_ra(filename):
                             "source": "PHOIBLE_RA",
                             "inv_id": inventory_id,
                             "segment_raw": segment_raw,
-                            #                        "marginal": str(marginal),
                         }
 
                         # Update entries
@@ -169,7 +158,6 @@ def read_phoible_saphon(filename):
                         "source": "PHOIBLE_SAPHON",
                         "inv_id": row["InventoryID"],
                         "segment_raw": segment_raw,
-                        #                        "marginal": str(marginal),
                     }
 
                     # Update entries
@@ -387,6 +375,20 @@ class Dataset(BaseDataset):
         values = []
         counter = 1
         for entry in data:
+            # Mark marginality, if necessary
+            if entry["segment_raw"][0] == "<" and entry["segment_raw"][-1] == ">":
+                entry["segment_raw"] = entry["segment_raw"][1:-1]
+                entry["marginal"] = "True"
+            elif entry["segment_raw"][0] == "'" and entry["segment_raw"][-1] == "'":
+                entry["segment_raw"] = entry["segment_raw"][1:-1]
+                entry["marginal"] = "True"
+            else:
+                entry["marginal"] = "False"
+
+            # Use the first phoneme of an allophone group, if any
+            if len(entry["segment_raw"]) >= 3 and "|" in entry["segment_raw"]:
+                entry["segment_raw"] = entry["segment_raw"].split("|")[0]
+
             # Obtain the corresponding BIPA grapheme, is possible
             normalized = normalize_grapheme(entry["segment_raw"])
             sound = clts.bipa[normalized]
@@ -404,7 +406,6 @@ class Dataset(BaseDataset):
                 {
                     "ID": str(counter),
                     "Language_ID": phoible_lang[entry["inv_id"]],
-                    # "Marginal": marginal,
                     "Parameter_ID": par_id,
                     "Value": entry["segment_raw"],
                     "Contribution_ID": entry["inv_id"],
