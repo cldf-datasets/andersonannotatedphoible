@@ -6,7 +6,6 @@
         }
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
-    "dc:identifier": "https://www.phoible.org",
     "dc:license": "GPL-3",
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset with data modified from Moran & McCloy's \"Phoible 2.0\" of 2020",
@@ -16,7 +15,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tresoldi/myphoible",
-            "dc:created": "c659c52"
+            "dc:created": "8824699"
         },
         {
             "rdf:type": "prov:Entity",
@@ -35,7 +34,7 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "myphoible",
+    "rdf:ID": "andersonannotatedphoible",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
