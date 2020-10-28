@@ -8,6 +8,7 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:identifier": "https://www.phoible.org",
     "dc:license": "GPL-3",
+    "dc:source": "sources.bib",
     "dc:title": "CLDF dataset with data modified from Moran & McCloy's \"Phoible 2.0\" of 2020",
     "dcat:accessURL": "https://github.com/tresoldi/myphoible",
     "prov:wasDerivedFrom": [
@@ -15,7 +16,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tresoldi/myphoible",
-            "dc:created": "c9d9e94"
+            "dc:created": "c659c52"
         },
         {
             "rdf:type": "prov:Entity",
@@ -27,7 +28,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.7.7"
+            "dc:description": "3.7.9"
         },
         {
             "dc:title": "python-packages",

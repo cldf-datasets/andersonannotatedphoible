@@ -11,10 +11,12 @@ import csv
 import unicodedata
 from pathlib import Path
 from unidecode import unidecode
+from collections import defaultdict
 
 from pyglottolog import Glottolog
 from pyclts import CLTS, models
 
+from pycldf import Sources
 from cldfbench import CLDFSpec
 from cldfbench import Dataset as BaseDataset
 from clldutils.misc import slug
@@ -296,6 +298,19 @@ class Dataset(BaseDataset):
         clts_path = Path.home() / ".config" / "cldf" / "clts"
         clts = CLTS(clts_path)
 
+        # Add the bibliographic info, loading sources and bibliographic info
+        # provided in phoible/dev
+        source_map = defaultdict(list)
+        with open(
+            self.raw_dir / "phoible-dev" / "mappings" / "InventoryID-Bibtex.csv"
+        ) as csvfile:
+            for row in csv.DictReader(csvfile):
+                source_map[row["InventoryID"]].append(row["BibtexKey"])
+        sources = Sources.from_file(
+            self.raw_dir / "phoible-dev" / "data" / "phoible-references.bib"
+        )
+        args.writer.cldf.add_sources(*sources)
+
         # Add components
         args.writer.cldf.add_columns(
             "ValueTable",
@@ -409,8 +424,8 @@ class Dataset(BaseDataset):
                     "Parameter_ID": par_id,
                     "Value": entry["segment_raw"],
                     "Contribution_ID": entry["inv_id"],
-                    "Source": [entry["source"]],
-                    "Catalog" : slug(entry["source"]),
+                    "Source": source_map[entry["inv_id"]],
+                    "Catalog": slug(entry["source"]),
                 }
             )
             counter += 1
