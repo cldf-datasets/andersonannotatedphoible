@@ -9,19 +9,19 @@
     "dc:license": "GPL-3",
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset with data modified from Moran & McCloy's \"Phoible 2.0\" of 2020",
-    "dcat:accessURL": "https://github.com/tresoldi/myphoible",
+    "dcat:accessURL": "https://github.com/cldf-datasets/andersonannotatedphoible",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/tresoldi/myphoible",
-            "dc:created": "8824699"
+            "rdf:about": "https://github.com/cldf-datasets/andersonannotatedphoible",
+            "dc:created": "0182b14"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1-26-g276382e"
+            "dc:created": "v4.3-treedb-fixes-289-gccb8b80"
         }
     ],
     "prov:wasGeneratedBy": [

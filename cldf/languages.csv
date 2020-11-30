@@ -207,7 +207,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 206_Ahtena_ahte1237,Ahtena,North America,61.7068,-144.889,ahte1237,aht,atha1245,Athabaskan-Eyak-Tlingit,Ahtena
 207_Hokkaido_Ainu_ainu1240,Hokkaido Ainu,Eurasia,43.633654,142.46167,ainu1240,ain,ainu1252,Ainu,Hokkaido Ainu
 208_Akan_akan1250,Akan,Africa,6.34756,-1.33254,akan1250,aka,atla1278,Atlantic-Congo,Akan
-209_Akawaio_akaw1239,Akawaio,South America,6.16277,-60.862,akaw1239,ake,cari1283,Cariban,Akawaio
+209_Akawaio_akaw1239,Akawaio,South America,6.16277,-60.862,akaw1239,ake,cari1283,Cariban,Akawaio-Ingariko
 210_Alabama_alab1237,Alabama,North America,30.76738,-94.62848,alab1237,akz,musk1252,Muskogean,Alabama
 211_Qawasqar_qawa1238,Qawasqar,South America,-49.303195,-74.707536,qawa1238,alc,kawe1237,Kawesqar,Qawasqar
 212_Alladian_alla1248,Alladian,Africa,5.22371,-4.42647,alla1248,ald,atla1278,Atlantic-Congo,Alladian
@@ -420,7 +420,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 419_Northern_Kurdish_nort2641,Northern Kurdish,Eurasia,37.0,43.0,nort2641,kmr,indo1319,Indo-European,Northern Kurdish
 420_Dera_Nigeria_dera1248,Dera (Nigeria),Africa,10.072,12.0256,dera1248,kna,afro1255,Afro-Asiatic,Dera (Nigeria)
 421_Central_Kanuri_cent2050,Central Kanuri,Africa,11.8,13.13,cent2050,knc,saha1256,Saharan,Central Kanuri
-422_Maharashtrian_Konkani_konk1267,Maharashtrian Konkani,Eurasia,19.2414,73.9166,konk1267,knn,indo1319,Indo-European,Maharashtrian Konkani
+422_Maharashtrian_Konkani_konk1267,Maharashtrian Konkani,Eurasia,18.404,73.994,konk1267,knn,indo1319,Indo-European,Konkan Marathi
 423_Korean_kore1280,Korean,Eurasia,37.5,128.0,kore1280,kor,kore1284,Koreanic,Korean
 424_Kpan_kpan1246,Kpan,Africa,7.58343,10.1642,kpan1246,kpk,atla1278,Atlantic-Congo,Kpan
 425_Koho_koho1244,Koho,Eurasia,11.6444,108.057,koho1244,kpm,aust1305,Austroasiatic,Koho
@@ -553,7 +553,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 552_Somali_soma1255,Somali,Africa,4.778704,45.152856,soma1255,som,afro1255,Afro-Asiatic,Somali
 553_Spanish_stan1288,Spanish,Eurasia,40.4414,-1.11788,stan1288,spa,indo1319,Indo-European,Spanish
 554_Selepet_sele1250,Selepet,Papunesia,-6.03532,147.234,sele1250,spl,nucl1709,Nuclear Trans New Guinea,Selepet
-555_Soqotri_soqo1240,Soqotri,Eurasia,12.4892,53.9168,soqo1240,sqt,afro1255,Afro-Asiatic,Soqotri
+555_Soqotri_soqo1240,Soqotri,Africa,12.4892,53.9168,soqo1240,sqt,afro1255,Afro-Asiatic,Soqotri
 556_Siriono_siri1273,Sirionó,South America,-15.5298,-63.9688,siri1273,srq,tupi1275,Tupian,Sirionó
 557_Natugu_natu1246,Natügu,Papunesia,-10.6771,165.835,natu1246,ntu,aust1307,Austronesian,Natügu
 558_Suena_suen1241,Suena,Papunesia,-7.76339,147.534,suen1241,sue,nucl1709,Nuclear Trans New Guinea,Suena
@@ -641,7 +641,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 640_Yucatec_Maya_yuca1254,Yucatec Maya,North America,18.7757,-88.9567,yuca1254,yua,maya1287,Mayan,Yucatec Maya
 641_Yuchi_yuch1247,Yuchi,North America,35.75,-86.75,yuch1247,yuc,,,Yuchi
 642_Yue_Chinese_yuec1235,Yue Chinese,Eurasia,23.0,113.0,yuec1235,yue,sino1245,Sino-Tibetan,Yue Chinese
-643_Yulu_yulu1243,Yulu,Africa,8.04124,23.6166,yulu1243,yul,cent2225,Central Sudanic,Yulu
+643_Yulu_yulu1243,Yulu,Africa,8.04124,23.6166,yulu1243,yul,cent2225,Central Sudanic,Yulu-Binga
 644_Yawa_nucl1454,Yawa,Papunesia,-1.77196,136.263,nucl1454,yva,yawa1259,Yawa-Saweru,Yawa
 645_Zande_zand1248,Zande,Africa,4.62047,26.7157,zand1248,zne,atla1278,Atlantic-Congo,Zande
 646_Copainala_Zoque_copa1236,Copainalá Zoque,North America,17.2157,-93.3183,copa1236,zoc,mixe1284,Mixe-Zoque,Copainalá Zoque
@@ -753,7 +753,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 752_Konkomba_konk1269,Konkomba,Africa,9.82224,0.2783,konk1269,xon,atla1278,Atlantic-Congo,Konkomba
 753_Liberia_Kpelle_libe1247,Liberia Kpelle,Africa,6.92048,-9.96128,libe1247,xpe,mand1469,Mande,Liberia Kpelle
 754_Guinea_Kpelle_guin1254,Guinea Kpelle,Africa,7.93196,-8.98843,guin1254,gkp,mand1469,Mande,Guinea Kpelle
-755_Gbaya_Sudan_gbay1288,Gbaya (Sudan),Africa,8.43391,25.5173,gbay1288,krs,kres1240,Kresh-Aja,Gbaya (Sudan)
+755_Gbaya_Sudan_gbay1288,Gbaya (Sudan),Africa,8.43391,25.0,gbay1288,krs,kres1240,Kresh-Aja,Kresh-Woro
 756_Krio_krio1253,Krio,Africa,10.8811,-14.3204,krio1253,kri,indo1319,Indo-European,Krio
 757_Tepo_Krumen_tepo1239,Tepo Krumen,Africa,5.16267,-7.66346,tepo1239,ted,atla1278,Atlantic-Congo,Tepo Krumen
 758_Kuria_kuri1259,Kuria,Africa,-1.50636,34.5049,kuri1259,kuj,atla1278,Atlantic-Congo,Kuria
@@ -1076,7 +1076,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1075_Baniwa_do_Icana_bani1255,Baniwa do Icana,South America,2.17859,-67.7704,bani1255,bwi,araw1281,Arawakan,Baniwa do Icana
 1076_Karitiana_kari1311,Karitiâna,South America,-9.37937,-64.1522,kari1311,ktn,tupi1275,Tupian,Karitiâna
 1077_North_Alaskan_Inupiatun_nort2943,North Alaskan Inupiatun,North America,69.582,-143.77,nort2943,esi,eski1264,Eskimo-Aleut,North Alaskan Inupiatun
-1078_San_Juan_Guelavia_Zapotec_sanj1284,San Juan Guelavía Zapotec,North America,17.0332,-96.5967,sanj1284,zab,otom1299,Otomanguean,San Juan Guelavía Zapotec
+1078_San_Juan_Guelavia_Zapotec_sanj1284,San Juan Guelavía Zapotec,North America,17.0332,-96.5967,sanj1284,zab,otom1299,Otomanguean,Western Tlacolula Valley Zapotec
 1079_Tzotzil_tzot1259,Tzotzil,North America,16.6362,-92.7388,tzot1259,tzo,maya1287,Mayan,Tzotzil
 1080_Sidamo_sida1246,Sidamo,Africa,6.74176,38.3729,sida1246,sid,afro1255,Afro-Asiatic,Sidamo
 1081_West_Coast_Bajau_west2560,West Coast Bajau,Papunesia,6.00631,116.124,west2560,bdr,aust1307,Austronesian,West Coast Bajau
@@ -1091,7 +1091,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1090_Adang_adan1251,Adang,Papunesia,-8.18958,124.448,adan1251,adn,timo1261,Timor-Alor-Pantar,Adang
 1091_Ambele_ambe1247,Ambele,Africa,5.94043,9.62028,ambe1247,ael,atla1278,Atlantic-Congo,Ambele
 1092_Apurina_apur1254,Apurinã,South America,-8.21692,-66.7714,apur1254,apu,araw1281,Arawakan,Apurinã
-1093_Achinese_achi1257,Acehnese,Eurasia,3.90757,96.6032,achi1257,ace,aust1307,Austronesian,Acehnese
+1093_Achinese_achi1257,Acehnese,Papunesia,3.90757,96.6032,achi1257,ace,aust1307,Austronesian,Acehnese
 1094_Antigua_and_Barbuda_Creole_English_anti1245,Antigua and Barbuda Creole English,North America,17.068263,-61.821863,anti1245,aig,indo1319,Indo-European,Antigua and Barbuda Creole English
 1095_Aklanon_akla1241,Aklanon,Papunesia,11.5543,122.354,akla1241,akl,aust1307,Austronesian,Aklanon
 1096_Arhuaco_arhu1242,Arhuaco,South America,10.7018,-73.6363,arhu1242,arh,chib1249,Chibchan,Arhuaco
@@ -1247,8 +1247,8 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1246_Anufo_anuf1239,Anufo,Africa,10.2839,0.56021,anuf1239,cko,atla1278,Atlantic-Congo,Anufo
 1247_Dibole_dibo1245,Dibole,Africa,1.07773,17.2305,dibo1245,bvx,atla1278,Atlantic-Congo,Dibole
 1248_Bana_bana1305,Bana,Africa,10.3535,13.6131,bana1305,bcw,afro1255,Afro-Asiatic,Bana
-1249_Baka_Sudan_baka1274,Baka (Sudan),Africa,4.65943,29.59,baka1274,bdh,cent2225,Central Sudanic,Baka (Sudan)
-1250_Aja_Sudan_ajas1235,Aja (Sudan),Africa,8.58003,25.6122,ajas1235,aja,kres1240,Kresh-Aja,Aja (Sudan)
+1249_Baka_Sudan_baka1274,Baka (Sudan),Africa,4.65943,29.59,baka1274,bdh,cent2225,Central Sudanic,Baka (South Sudan)
+1250_Aja_Sudan_ajas1235,Aja (Sudan),Africa,8.58003,25.6122,ajas1235,aja,kres1240,Kresh-Aja,Aja (South Sudan)
 1251_Bila_bila1255,Bila,Africa,1.16839,28.7626,bila1255,bip,atla1278,Atlantic-Congo,Bila
 1252_Busa_busa1253,Busa,Africa,9.91074,4.39929,busa1253,bqp,mand1469,Mande,Busa
 1253_Adamawa_Fulfulde_adam1253,Adamawa Fulfulde,Africa,8.140326,13.077338,adam1253,fub,atla1278,Atlantic-Congo,Adamawa Fulfulde
@@ -1577,7 +1577,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1576_Daba_nucl1683,Daba,Africa,10.3521,13.6318,nucl1683,dbq,afro1255,Afro-Asiatic,Daba
 1577_Gavar_gava1241,Gavar,Africa,10.5603,13.8188,gava1241,gou,afro1255,Afro-Asiatic,Gavar
 1578_Gude_gude1246,Gude,Africa,10.2138,13.403,gude1246,gde,afro1255,Afro-Asiatic,Gude
-1579_Lango_Sudan_lang1322,Lango (Sudan),Africa,4.04948,33.0412,lang1322,lno,nilo1247,Nilotic,Lango (Sudan)
+1579_Lango_Sudan_lang1322,Lango (Sudan),Africa,4.04948,33.0412,lang1322,lno,nilo1247,Nilotic,Lango (South Sudan)
 1580_Igo_igoo1238,Igo,Africa,7.25499,0.67846,igoo1238,ahl,atla1278,Atlantic-Congo,Igo
 1581_Kako_kako1242,Kako,Africa,3.79989,15.6282,kako1242,kkj,atla1278,Atlantic-Congo,Kako
 1582_Kwanja_kwan1276,Kwanja,Africa,6.30293,11.6931,kwan1276,knp,atla1278,Atlantic-Congo,Kwanja
@@ -1745,7 +1745,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1744_Northwestern_Kolami_nort2699,Northwestern Kolami,Eurasia,20.1022,78.4934,nort2699,kfb,drav1251,Dravidian,Northwestern Kolami
 1745_KondaDora_kond1295,Konda-Dora,Eurasia,18.26754,82.93402,kond1295,kfc,drav1251,Dravidian,Konda-Dora
 1746_Mudhili_Gadaba_mudh1235,Mudhili Gadaba,Eurasia,18.276,83.378,mudh1235,gau,drav1251,Dravidian,Mudhili Gadaba
-1747_Maharashtrian_Konkani_konk1267,Maharashtrian Konkani,Eurasia,19.2414,73.9166,konk1267,knn,indo1319,Indo-European,Maharashtrian Konkani
+1747_Maharashtrian_Konkani_konk1267,Maharashtrian Konkani,Eurasia,18.404,73.994,konk1267,knn,indo1319,Indo-European,Konkan Marathi
 1748_Korra_Koraga_korr1238,Korra Koraga,Eurasia,12.9163,75.2,korr1238,kfd,drav1251,Dravidian,Korra Koraga
 1749_Korku_kork1243,Korku,Eurasia,21.8358,77.5541,kork1243,kfq,aust1305,Austroasiatic,Korku
 1750_Kota_India_kota1263,Kota (India),Eurasia,11.4978,76.9387,kota1263,kfe,drav1251,Dravidian,Kota (India)
@@ -1841,7 +1841,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1840_Yawalapiti_yawa1261,Yawalapití,South America,-12.5104,-53.4236,yawa1261,yaw,araw1281,Arawakan,Yawalapití
 1841_Yine_yine1238,Yine,South America,-11.1086,-73.3087,yine1238,pib,araw1281,Arawakan,Yine
 1842_Yucuna_yucu1253,Yucuna,South America,-0.76075,-71.0033,yucu1253,ycn,araw1281,Arawakan,Yucuna
-1843_Baure_baur1253,Baure,South America,-13.1278,-64.1838,baur1253,brg,araw1281,Arawakan,Baure
+1843_Baure_baur1253,Baure,South America,-13.61,-63.68,baur1253,brg,araw1281,Arawakan,Baure
 1844_Ignaciano_igna1246,Ignaciano,South America,-15.1188,-65.3993,igna1246,ign,araw1281,Arawakan,Ignaciano
 1845_Deni_deni1241,Deni,South America,-6.74962,-67.5029,deni1241,dny,araw1282,Arawan,Deni
 1846_Madi_jama1261,Madi,South America,-7.62223,-66.5662,jama1261,jaa,araw1282,Arawan,Madi
@@ -1871,7 +1871,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1870_Carijona_cari1279,Carijona,South America,1.21894,-72.0664,cari1279,cbd,cari1283,Cariban,Carijona
 1871_Hixkaryana_hixk1239,Hixkaryána,South America,-0.16265,-58.80153,hixk1239,hix,cari1283,Cariban,Hixkaryána
 1872_Ikpeng_ikpe1245,Ikpeng,South America,-11.37822,-53.49553,ikpe1245,txi,cari1283,Cariban,Ikpeng
-1873_Akawaio_akaw1239,Akawaio,South America,6.16277,-60.862,akaw1239,ake,cari1283,Cariban,Akawaio
+1873_Akawaio_akaw1239,Akawaio,South America,6.16277,-60.862,akaw1239,ake,cari1283,Cariban,Akawaio-Ingariko
 1874_Japreria_japr1238,Japrería,South America,10.5523,-72.7101,japr1238,jru,cari1283,Cariban,Japrería
 1875_Kaxuiana_kaxu1237,Kaxuiâna,South America,2.17138,-55.9101,kaxu1237,kbb,cari1283,Cariban,Kaxuiâna
 1876_KuikuroKalapalo_kuik1246,Kuikúro-Kalapálo,South America,-12.3035,-53.2261,kuik1246,kui,cari1283,Cariban,Kuikúro-Kalapálo
@@ -1955,7 +1955,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1954_Arikapu_arik1265,Arikapú,South America,-12.4878,-62.7261,arik1265,ark,nucl1710,Nuclear-Macro-Je,Arikapú
 1955_Bororo_boro1282,Bororo,South America,-16.6029,-55.2004,boro1282,bor,boro1281,Bororoan,Bororo
 1956_CanelaKraho_cane1242,Canela-Krahô,South America,-6.10712,-45.1299,cane1242,ram,nucl1710,Nuclear-Macro-Je,Canela-Krahô
-1957_Chiquitano_chiq1248,Lomeriano-Ignaciano Chiquitano,South America,-16.769554,-61.817795,chiq1248,cax,,,Lomeriano-Ignaciano Chiquitano
+1957_Chiquitano_chiq1248,Lomeriano-Ignaciano Chiquitano,South America,-16.769554,-61.817795,chiq1248,cax,chiq1253,Chiquitano,Lomeriano-Ignaciano Chiquitano
 1958_Para_Gaviao_para1315,Pará-Maranhão Gavião,South America,-4.91161,-49.0217,para1315,gvp,nucl1710,Nuclear-Macro-Je,Pará-Maranhão Gavião
 1959_Guato_guat1253,Guató,South America,-17.8696,-57.2897,guat1253,gta,,,Guató
 1960_Djeoromitxi_djeo1235,Djeoromitxí,South America,-12.038,-64.6694,djeo1235,jbt,nucl1710,Nuclear-Macro-Je,Djeoromitxí
@@ -1978,7 +1978,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 1977_Xerente_xere1240,Xerénte,South America,-9.59426,-48.2629,xere1240,xer,nucl1710,Nuclear-Macro-Je,Xerénte
 1978_Xokleng_xokl1240,Xokleng,South America,-26.9217,-49.5886,xokl1240,xok,nucl1710,Nuclear-Macro-Je,Xokleng
 1979_Fulnio_fuln1247,Fulniô,South America,-9.02591,-37.1402,fuln1247,fun,,,Fulniô
-1980_Sao_Paulo_Kaingang_saop1235,São Paulo Kaingáng,South America,-23.5708,-46.7609,saop1235,zkp,nucl1710,Nuclear-Macro-Je,São Paulo Kaingáng
+1980_Sao_Paulo_Kaingang_saop1235,São Paulo Kaingáng,South America,-21.771882,-50.429849,saop1235,zkp,nucl1710,Nuclear-Macro-Je,São Paulo Kaingáng
 1981_Iyowujwa_Chorote_iyow1239,Iyo'wujwa Chorote,South America,-22.2067,-62.6508,iyow1239,crq,mata1289,Matacoan,Iyo'wujwa Chorote
 1982_Maca_maca1260,Maca,South America,-25.0119,-57.3694,maca1260,mca,mata1289,Matacoan,Maca
 1983_Nivacle_niva1238,Nivaclé,South America,-22.8557,-61.7606,niva1238,cag,mata1289,Matacoan,Nivaclé
@@ -2225,7 +2225,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 2224_Plautdietsch_plau1238,Plautdietsch,North America,49.578028,-109.353868,plau1238,pdt,indo1319,Indo-European,Plautdietsch
 2225_Kedayan_keda1250,Kedayan,Papunesia,,,keda1250,,aust1307,Austronesian,Kedayan
 2226_Pitjantjatjara_pitj1243,Pitjantjatjara,Australia,-26.9704,131.357,pitj1243,pjt,pama1250,Pama-Nyungan,Pitjantjatjara
-2227_Southeast_Pashayi_sout2672,Southeast Pashayi,Eurasia,34.43099,70.30351,sout2672,psi,indo1319,Indo-European,Southeast Pashayi
+2227_Southeast_Pashayi_sout2672,Southeast Pashayi,Eurasia,34.66597,70.592042,sout2672,psi,indo1319,Indo-European,Southeast Pashayi
 2228_Vlax_Romani_vlax1238,Vlax Romani,Eurasia,46.09,18.16,vlax1238,rmy,indo1319,Indo-European,Vlax Romani
 2229_Tachelhit_tach1250,Tachelhit,Africa,29.7854,-7.77879,tach1250,shi,afro1255,Afro-Asiatic,Tachelhit
 2230_Shixing_shix1238,Shixing,Eurasia,28.3895,100.4,shix1238,sxg,sino1245,Sino-Tibetan,Shixing
@@ -2402,7 +2402,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 2401_Kabardian_kaba1278,Kabardian,Eurasia,43.5082,43.3918,kaba1278,kbd,abkh1242,Abkhaz-Adyge,Kabardian
 2402_Tundra_Nenets_nene1249,Tundra Nenets,Eurasia,66.1775,71.0234,nene1249,yrk,ural1272,Uralic,Tundra Nenets
 2403_Karaim_kara1464,Karaim,Eurasia,54.5534,25.1054,kara1464,kdr,turk1311,Turkic,Karaim
-2404_Varli_varl1238,Varli,Eurasia,20.5635,73.2975,varl1238,vav,indo1319,Indo-European,Varli
+2404_Varli_varl1238,Varli,Eurasia,20.5635,73.2975,varl1238,vav,indo1319,Indo-European,Dungar Varli
 2405_Dutch_dutc1256,Dutch,Eurasia,52.0,5.0,dutc1256,nld,indo1319,Indo-European,Dutch
 2406_Welsh_wels1247,Welsh,Eurasia,52.0,-4.0,wels1247,cym,indo1319,Indo-European,Welsh
 2407_Japhug_japh1234,Japhug,Eurasia,32.1,102.36,japh1234,,sino1245,Sino-Tibetan,Japhug
@@ -2594,7 +2594,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 2593_East_Latvian_east2282,East Latvian,Eurasia,,,east2282,ltg,indo1319,Indo-European,East Latvian
 2594_Catalan_stan1289,Catalan,Eurasia,41.453,1.569,stan1289,cat,indo1319,Indo-European,Catalan
 2595_Turkmen_turk1304,Turkmen,Eurasia,37.0872,59.1757,turk1304,tuk,turk1311,Turkic,Turkmen
-2596_Jerriais_jerr1238,Jerriais,Eurasia,,,jerr1238,nrf,indo1319,Indo-European,Jerriais
+2596_Jerriais_jerr1238,Jerriais,Eurasia,49.2123,-2.1325,jerr1238,nrf,indo1319,Indo-European,Jerriais
 2597_Central_Khmer_cent1989,Central Khmer,Eurasia,12.0515,105.015,cent1989,khm,aust1305,Austroasiatic,Central Khmer
 2598_Assamese_assa1263,Assamese,Eurasia,26.0876,91.2932,assa1263,asm,indo1319,Indo-European,Assamese
 2599_OiradKalmyk_kalm1243,Oirad-Kalmyk-Darkhat,Eurasia,46.566667,45.316667,kalm1243,xal,mong1349,Mongolic-Khitan,Oirad-Kalmyk-Darkhat
@@ -2976,7 +2976,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_Glottocode,F
 2975_Gumatj_guma1253,Gumatj,Australia,-12.25254,136.83042,guma1253,gnn,pama1250,Pama-Nyungan,Gumatj
 2976_Djinang_djin1253,Djinang,Australia,-12.462,134.82,djin1253,dji,pama1250,Pama-Nyungan,Djinang
 2977_Djinba_djin1252,Djinba,Australia,-12.93,134.967,djin1252,djb,pama1250,Pama-Nyungan,Djinba
-2978_Yannhangu_yann1237,Yan-nhangu,Australia,-12.0853,134.877,yann1237,jay,pama1250,Pama-Nyungan,Yan-nhangu
+2978_Yannhangu_yann1237,Yan-nhangu,Australia,-12.0853,134.877,yann1237,jay,pama1250,Pama-Nyungan,Nhangu
 2979_Ritarungo_rita1239,Ritarungo,Australia,-13.4559,135.259,rita1239,rit,pama1250,Pama-Nyungan,Ritarungo
 2980_Yorta_Yorta_yort1237,Yorta Yorta,Australia,-35.9,145.01,yort1237,xyy,pama1250,Pama-Nyungan,Yorta Yorta
 2981_Yorta_Yorta_yort1237,Yorta Yorta,Australia,-35.9,145.01,yort1237,xyy,pama1250,Pama-Nyungan,Yorta Yorta
